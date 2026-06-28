@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: linear-gradient(to right, black, gold);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.hero {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.button {
+    display: inline-block;
+    background: gold;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about,
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    width: 300px;
+    background: #222;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px gray;
+}
+.hero-image {
+    width: 350px;
+    max-width: 90%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px gold;
+}
